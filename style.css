@@ -1,0 +1,20 @@
+.film-list {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.film-card {
+  width: 20rem;
+  background-color: rgb(240, 241, 241);
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px 4px rgba(0, 0, 0, 0.2);
+}
+
+.film-card img {
+  width: 100%;
+}
